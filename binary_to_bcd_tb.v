@@ -1,4 +1,3 @@
-testbench_code = '''
 `timescale 1ns / 1ps
 
 module binary_to_bcd_tb;
@@ -71,5 +70,6 @@ endmodule
 
 with open("binary_to_bcd/binary_to_bcd_tb.v", "w") as f:
     f.write(testbench_code)
+
 
 print("Testbench binary_to_bcd_tb.v has been created successfully!")
